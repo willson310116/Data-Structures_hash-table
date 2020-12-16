@@ -1,4 +1,4 @@
-with open("password.txt") as f:
+with open("pseudo_password.txt") as f:
 	data = f.read()
 
 data = data.split("\n")[:-2]

@@ -15,7 +15,7 @@ for i in range(len(data)):
 val = input("search for a hash value, q for quit\n> ")
 while val != "q":
 	if val in table.keys():
-		print(f"recovered password:{table[val][1]}  salt value:{table[val][0]}")
+		print(f"recovered password: {table[val][1]}\nsalt value: {table[val][0]}")
 	else:
 		print("No match is found!")
 	val = input("search for a hash value, q for quit\n> ")
